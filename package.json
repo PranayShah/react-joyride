@@ -1,6 +1,6 @@
 {
-  "name": "react-joyride",
-  "version": "2.1.1",
+  "name": "tb-joyride",
+  "version": "0.0.1",
   "description": "Create guided tours for your apps",
   "author": "Gil Barbara <gilbarbara@gmail.com>",
   "repository": {
@@ -10,7 +10,7 @@
   "bugs": {
     "url": "https://github.com/gilbarbara/react-joyride/issues"
   },
-  "homepage": "https://react-joyride.com/",
+  "homepage": "https://tabarnapp.com/",
   "keywords": [
     "react",
     "react-component",
@@ -137,12 +137,6 @@
       "maxSize": "20 kB"
     }
   ],
-  "husky": {
-    "hooks": {
-      "post-merge": "node tools update",
-      "pre-commit": "node tools upstream && lint-staged && flow"
-    }
-  },
   "lint-staged": {
     "*.js?(x)": [
       "eslint --fix",
